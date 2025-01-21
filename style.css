@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: url(<path-to-image>) lightgray 0% 0% / 100px 100px repeat, linear-gradient(0deg, rgba(254, 163, 1, 0.30) 0%, rgba(255, 255, 255, 0.30) 100%);
 }
 
 .c1,
@@ -26,6 +25,7 @@
 header {
     max-width: 1280px;
     margin: 0 auto;
+    background: lightgray 0% 0% / 100px 100px repeat, linear-gradient(0deg, rgba(254, 163, 1, 0.30) 0%, rgba(255, 255, 255, 0.30) 100%);
 }
 
 header .icon {
@@ -161,4 +161,161 @@ a {
 
 .banner-img img {
     width: 100%;
+}
+
+.curriculum {
+    background-image: url(./assets/bg.png);
+    background-size: 108%;
+}
+
+.curriculum-sec {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.curriculum h2 {
+    padding: 60px 0 80px 0;
+    color: #000;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.curriculum .card-box {
+    display: flex;
+    text-align: center;
+    gap: 28px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    width: 367.805px;
+    height: 476.784px;
+    padding: 32.819px 20.668px 33.762px 20.878px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20.069px;
+    flex-shrink: 0;
+}
+
+.card h4 {
+    color: #202020;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 24px 0;
+}
+
+.card p {
+    color: #808080;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    margin-bottom: 20px;
+}
+
+.card-1 {
+    border-radius: 18.864px;
+    border: 0.943px solid #DEF5FF;
+    background: linear-gradient(180deg, #DEF5FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+}
+
+.card-2 {
+    border-radius: 18.864px;
+    border: 0.943px solid #FFF4DC;
+    background: linear-gradient(180deg, #FFF4DC 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+}
+
+.card-3 {
+    border-radius: 18.864px;
+    border: 0.943px solid #F2E8FF;
+    background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+}
+
+.card a {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.card-1 a {
+    color: #64c8ff;
+}
+
+.card-2 a {
+    color: #f0aa00;
+}
+
+.card-3 a {
+    color: #8700ff;
+}
+
+.icons {
+    padding: 80px 0 60px 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+    .curriculum-sec {
+        padding: 0 16px;
+    }
+    .navbar ul,
+    .navbar .btn,
+    .navbar .logo h3 {
+        display: none;
+    }
+    .navbar .icon {
+        display: initial;
+    }
+    .navbar {
+        margin: 0;
+        padding: 12px 16px;
+        border-bottom: 0.5px solid #fea301;
+    }
+    .hero {
+        flex-direction: column-reverse;
+        padding: 20px 16px;
+        text-align: center;
+        gap: 20px;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+        align-self: stretch;
+    }
+    .hero .banner-desc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+        align-self: stretch;
+    }
+    .hero h1 {
+        font-size: 2rem;
+        line-height: normal;
+    }
+    .icons {
+        display: none;
+    }
+    .card-box {
+        flex-direction: column;
+    }
+    .curriculum h2 {
+        font-size: 1.5rem;
+        padding: 40px 0 20px 0;
+        margin-bottom: 18px;
+    }
 }
