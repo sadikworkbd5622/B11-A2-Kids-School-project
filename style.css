@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url(<path-to-image>) lightgray 0% 0% / 100px 100px repeat, linear-gradient(0deg, rgba(254, 163, 1, 0.30) 0%, rgba(255, 255, 255, 0.30) 100%);
+}
+
+.c1,
+.s1 {
+    color: rgba(254, 163, 1, 1);
+}
+
+.c2,
+.s2 {
+    color: rgba(1, 172, 253, 1);
+}
+
+.c3 {
+    color: rgba(5, 212, 223, 1);
+}
+
+.c4 {
+    color: rgba(93, 88, 239, 1);
+}
+
+header {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header .icon {
+    display: none;
+}
+
+header .icon i {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    padding: 20px 0px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 140px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 180px;
+}
+
+.logo img {
+    width: 50px;
+    cursor: pointer;
+}
+
+.logo h3 {
+    color: var(--Black, #111);
+    font-family: Quicksand;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    cursor: pointer;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 32px;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.c1 {
+    text-decoration: none;
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.btn-1 {
+    display: flex;
+    width: 148px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: var(--Orange, #FEA301);
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    border: none;
+    /* 150% */
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.banner-desc {
+    max-width: 500px;
+    gap: 24px;
+}
+
+.banner-desc h1 {
+    color: var(--Black, #111);
+    font-family: Quicksand;
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 61px;
+    align-self: stretch;
+}
+
+.banner-desc p {
+    color: var(--Black, #111);
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 24px 0;
+}
+
+.btn-2 {
+    display: flex;
+    width: 197px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    background: var(--Black, #111);
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.banner-img img {
+    width: 100%;
+}
