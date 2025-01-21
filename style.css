@@ -169,7 +169,7 @@ a {
 }
 
 .curriculum-sec {
-    max-width: 1160px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
@@ -262,6 +262,135 @@ a {
 .icons {
     padding: 80px 0 60px 0;
     text-align: center;
+}
+
+.story {
+    background: linear-gradient( 0deg, rgba(254, 163, 1, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%), url("./assets/bg.png");
+    background-size: 95%;
+    align-items: center;
+    justify-content: center;
+}
+
+.story h2 {
+    padding: 60px 0 80px 0;
+    color: #000;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.story-box {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 19px;
+}
+
+.story-img {
+    height: auto;
+}
+
+.story-img img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px 16px 0 0;
+}
+
+.story-card {
+    background-color: white;
+    border-radius: 16px;
+}
+
+.first {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.story-desc button {
+    height: 47px;
+    padding: 0 18px;
+    position: absolute;
+    top: -26px;
+    border-radius: 47.934px;
+    border: none;
+    color: #fff;
+    font-family: Raleway;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.btn-3 {
+    background-color: #3cd8e8;
+}
+
+.btn-4 {
+    background-color: #95b226;
+}
+
+.btn-5 {
+    background-color: #5d58f0;
+}
+
+.first .story-desc {
+    padding: 0 68px 34px 38px;
+    position: relative;
+}
+
+.first .story-desc h3 {
+    padding-top: 50px;
+    margin-bottom: 50px;
+    color: #000;
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.first .story-desc p {
+    color: #666;
+    font-family: Raleway;
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.story-card .story-desc {
+    padding: 0 54px 33px 37px;
+    position: relative;
+}
+
+.story-card h3 {
+    color: #000;
+    font-family: Quicksand;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    padding-top: 38px;
+}
+
+.last-btn {
+    padding: 80px 0 60px 0;
+    text-align: center;
+}
+
+.last-btn .btn-6 {
+    width: 197px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    background: var(--Black, #111);
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
 }
 
 @media screen and (max-width: 576px) {
