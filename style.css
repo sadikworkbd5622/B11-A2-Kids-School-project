@@ -108,7 +108,11 @@ a {
     font-weight: 600;
     line-height: 30px;
     border: none;
-    /* 150% */
+}
+
+.btn-1:hover {
+    color: var(--Orange, #FEA301);
+    background: lightgrey;
 }
 
 .hero {
@@ -157,6 +161,11 @@ a {
     font-style: normal;
     font-weight: 700;
     line-height: 30px;
+}
+
+.btn-2:hover {
+    color: var(--Black, #111);
+    background: white;
 }
 
 .banner-img img {
@@ -393,6 +402,19 @@ a {
     line-height: 30px;
 }
 
+.btn-6:hover {
+    color: var(--Black, #111);
+    background: white;
+}
+
+.mark {
+    width: 100%;
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #01ACFD;
+}
+
 footer {
     background: #01ACFD;
     font-family: Quicksand;
@@ -444,7 +466,7 @@ footer ul li {
 
 footer h3 {
     font-size: 1.25rem;
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 26px;
 }
 
@@ -462,7 +484,7 @@ footer a {
     text-decoration: none;
     display: inline-block;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -476,6 +498,11 @@ footer a {
 .social_list img {
     width: 100%;
     border-radius: 4px;
+    transition: transform 0.3s;
+}
+
+.social-list img:hover {
+    transform: scale(1.2);
 }
 
 @media screen and (max-width: 576px) {
@@ -563,7 +590,7 @@ footer a {
     footer .about {
         padding: 50px 15px 50px 20px;
         flex-direction: column;
-        gap: 26px;
+        gap: 30px;
     }
     .footer-logo {
         position: relative;
