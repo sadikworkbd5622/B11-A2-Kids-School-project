@@ -393,8 +393,93 @@ a {
     line-height: 30px;
 }
 
+footer {
+    background: #01ACFD;
+    font-family: Quicksand;
+}
+
+footer h1 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+footer p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 350px;
+    margin-top: 30px;
+}
+
+footer .about {
+    max-width: 1280px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 140px 0 190px 0;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo1 {
+    width: 76px;
+}
+
+.logo1 img {
+    width: 100%;
+    cursor: pointer;
+}
+
+footer h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 26px;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 1rem;
+    font-weight: 500;
+    gap: 16px;
+}
+
+footer a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.social_list {
+    display: flex;
+    gap: 8;
+}
+
+.social_list img {
+    width: 100%;
+    border-radius: 4px;
+}
+
 @media screen and (max-width: 576px) {
-    .curriculum-sec {
+    .curriculum-sec .story-box {
         padding: 0 16px;
     }
     .navbar ul,
@@ -436,6 +521,10 @@ a {
         font-size: 2rem;
         line-height: normal;
     }
+    .banner-btn {
+        flex-direction: column;
+        gap: 15px;
+    }
     .icons {
         display: none;
     }
@@ -446,5 +535,37 @@ a {
         font-size: 1.5rem;
         padding: 40px 0 20px 0;
         margin-bottom: 18px;
+    }
+    .story-box {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        padding: 0 16px 0 16px;
+    }
+    .first {
+        display: none;
+    }
+    .story-card button {
+        font-size: 0.5rem;
+        height: 22px;
+        position: absolute;
+        top: -14px;
+    }
+    .story-card h3 {
+        font-size: 0.5rem;
+        line-height: 17px;
+    }
+    .story-card .story-desc {
+        padding: 0 23px 17px 22px;
+    }
+    .story-desc h3 {
+        padding-top: 25px;
+    }
+    footer .about {
+        padding: 50px 15px 50px 20px;
+        flex-direction: column;
+        gap: 26px;
+    }
+    .footer-logo {
+        position: relative;
     }
 }
